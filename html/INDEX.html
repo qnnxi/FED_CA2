@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Javascripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- css -->
+    <link href="../css/style.css" rel="stylesheet" />
+    <!-- Javascript display current date and time -->
+    <script src="../js/datetime.js" defer></script>
+    <!-- Javascript display typing effect -->
+    <script src="../js/typing.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container text-center">
+            <h1 class="display-1 banner">ABOUT ME</h1>
+            <!-- https://wallpapercave.com/cloud-desktop-background -->
+        </div>
+        <!-- Navigation Bar -->
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" href="INDEX.html">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="SPLIFE.html">SPLIFE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="CAREER.html">CAREER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="FEEDBACK.html">FEEDBACK</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Display current date and time -->
+    <div class="text-center timedate">
+        <h1 class="text">TIME AND DATE</h1>
+        <div id="clock" class="h4">
+            <div id="date"></div>
+            <div id="wday"></div>
+            <div id="time"></div>
+        </div>
+    </div>
+
+
+    <!-- Image of myself including links to ABOUTME.html-->
+    <figure class="text-center">
+        <a href="../html/ABOUTME.html"><img src="../image/mypicture.jpg" width="300" class="img-thumbnail"></a>
+        <figcaption>Click picture to know more about me!!</figcaption>
+    </figure>
+
+
+    <!-- Javascript typing effect -->
+    <div class="text-center">
+        <h2 id="name" style="font-family: monospace"></h2>
+        <!-- Call function by clicking the button -->
+        <button onclick="typeWriter()" type="button">Click me!!</button>
+    </div><br>
+
+
+    <!-- Contact Details -->
+    <footer>
+        <div class="container text-center contact">
+            Tel: <a href="tel:+6586003892">8600 3892</a><br>
+            Email: <a href="mailto:qianxi22.22@ichat.sp.edu.sg">qianxi22.22@ichat.sp.edu.sg</a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

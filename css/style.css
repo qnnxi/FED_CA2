@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* Date and time */
+.timedate {
+    padding: 20px;
+}
+
+div#clock {
+    border: 5px solid cadetblue;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Footer gradient */
+.contact {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+
+/* Banner */
+.banner {
+    background-image: url(../image/banner.PNG);
+    padding: 10px;
+    text-shadow: 2px 2px 3px rgb(96, 96, 96);
+}
+
+
+/* "Time and Date" text shadow*/
+.text {
+    text-shadow: 3px 3px 5px rgb(229, 204, 255);
+}
+
+
+/* SPLIFE text */
+.experience {
+    margin: auto;
+}
+
+
+/* Figure */
+figure {
+    padding: 20px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+figure#figure1 {
+    transform: rotate(10deg);
+}
+
+figure#figure2 {
+    transform: rotate(-10deg);
+}
